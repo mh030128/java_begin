@@ -11,9 +11,9 @@ public class AnimalPolyMain3 {
 
     // 변하지 않는 부분
     private static void soundAnimal(Animal animal) {    // ctrl + alt + M
-        System.out.println("동물 소리 시작");
+        System.out.println("동물 소리 테스트 시작");
         animal.sound();
-        System.out.println("동물 소리 종료");
+        System.out.println("동물 소리 테스트 종료");
     }
 
     /*
