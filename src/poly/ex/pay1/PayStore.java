@@ -1,6 +1,6 @@
 package poly.ex.pay1;
 
-public class PayStore {
+public abstract class PayStore {
 
     public static Pay findPay(String option) {
         if (option.equals("kakao")) {
