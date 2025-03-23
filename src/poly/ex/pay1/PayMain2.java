@@ -12,19 +12,16 @@ public class PayMain2 {
             System.out.print("결제 수단을 입력하세요 : ");
             String option = scanner.nextLine();
 
-            if (option.equals("exit")) {
+            if(option.equals("exit")) {
                 System.out.println("프로그램을 종료합니다.");
                 return;
             }
 
             System.out.print("결제 금액을 입력하세요 : ");
             int amount = scanner.nextInt();
-
             scanner.nextLine();
 
             payService.processPay(option, amount);
         }
-
-
     }
 }
